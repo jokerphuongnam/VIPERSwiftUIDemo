@@ -8,17 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		84DAA86D28D304BF002D8149 /* ViperDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAA86C28D304BF002D8149 /* ViperDemoApp.swift */; };
-		84DAA86F28D304BF002D8149 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAA86E28D304BF002D8149 /* ContentView.swift */; };
 		84DAA87128D304C1002D8149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DAA87028D304C1002D8149 /* Assets.xcassets */; };
 		84DAA87428D304C1002D8149 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DAA87328D304C1002D8149 /* Preview Assets.xcassets */; };
+		84DAA88928D305DB002D8149 /* UserLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAA88828D305DB002D8149 /* UserLocal.swift */; };
+		84DAA88B28D305E6002D8149 /* UserNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAA88A28D305E6002D8149 /* UserNetwork.swift */; };
+		84DAA88D28D3060E002D8149 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAA88C28D3060E002D8149 /* User.swift */; };
+		84DAA88F28D3079D002D8149 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAA88E28D3079D002D8149 /* UserRepository.swift */; };
+		84DAA89128D30887002D8149 /* UsersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAA89028D30887002D8149 /* UsersPage.swift */; };
+		84DAA89328D30895002D8149 /* UsersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAA89228D30895002D8149 /* UsersPresenter.swift */; };
+		84DAA89528D309BA002D8149 /* UsersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAA89428D309BA002D8149 /* UsersInteractor.swift */; };
+		84DAA89928D30B98002D8149 /* AddUserPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAA89828D30B98002D8149 /* AddUserPage.swift */; };
+		84DAA89B28D317CE002D8149 /* AddUserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAA89A28D317CE002D8149 /* AddUserPresenter.swift */; };
+		84DAA89D28D317DD002D8149 /* AddUserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAA89C28D317DD002D8149 /* AddUserInteractor.swift */; };
+		84DAA89F28D31B02002D8149 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAA89E28D31B02002D8149 /* AppDelegate.swift */; };
+		84DAA8A128D31C82002D8149 /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAA8A028D31C82002D8149 /* Injection.swift */; };
+		84DAA8E028D4136C002D8149 /* AddImageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAA8DF28D4136C002D8149 /* AddImageInteractor.swift */; };
+		84DAA8E228D413B3002D8149 /* AddImagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAA8E128D413B3002D8149 /* AddImagePresenter.swift */; };
+		84DAA8E428D414A9002D8149 /* AddImagePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAA8E328D414A9002D8149 /* AddImagePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84DAA86928D304BF002D8149 /* ViperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DAA86C28D304BF002D8149 /* ViperDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperDemoApp.swift; sourceTree = "<group>"; };
-		84DAA86E28D304BF002D8149 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		84DAA87028D304C1002D8149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84DAA87328D304C1002D8149 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84DAA88828D305DB002D8149 /* UserLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocal.swift; sourceTree = "<group>"; };
+		84DAA88A28D305E6002D8149 /* UserNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNetwork.swift; sourceTree = "<group>"; };
+		84DAA88C28D3060E002D8149 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		84DAA88E28D3079D002D8149 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		84DAA89028D30887002D8149 /* UsersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersPage.swift; sourceTree = "<group>"; };
+		84DAA89228D30895002D8149 /* UsersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersPresenter.swift; sourceTree = "<group>"; };
+		84DAA89428D309BA002D8149 /* UsersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersInteractor.swift; sourceTree = "<group>"; };
+		84DAA89828D30B98002D8149 /* AddUserPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserPage.swift; sourceTree = "<group>"; };
+		84DAA89A28D317CE002D8149 /* AddUserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserPresenter.swift; sourceTree = "<group>"; };
+		84DAA89C28D317DD002D8149 /* AddUserInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserInteractor.swift; sourceTree = "<group>"; };
+		84DAA89E28D31B02002D8149 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84DAA8A028D31C82002D8149 /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
+		84DAA8DF28D4136C002D8149 /* AddImageInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageInteractor.swift; sourceTree = "<group>"; };
+		84DAA8E128D413B3002D8149 /* AddImagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImagePresenter.swift; sourceTree = "<group>"; };
+		84DAA8E328D414A9002D8149 /* AddImagePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImagePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +79,13 @@
 		84DAA86B28D304BF002D8149 /* ViperDemo */ = {
 			isa = PBXGroup;
 			children = (
-				84DAA86C28D304BF002D8149 /* ViperDemoApp.swift */,
-				84DAA86E28D304BF002D8149 /* ContentView.swift */,
-				84DAA87028D304C1002D8149 /* Assets.xcassets */,
+				84DAA87C28D304FE002D8149 /* App */,
+				84DAA88228D30585002D8149 /* Injection */,
+				84DAA87D28D30509002D8149 /* Resource */,
+				84DAA87B28D304D5002D8149 /* Database */,
+				84DAA87F28D3051D002D8149 /* Representable */,
+				84DAA87A28D304CF002D8149 /* UIs */,
+				84DAA87E28D30513002D8149 /* Utils */,
 				84DAA87228D304C1002D8149 /* Preview Content */,
 			);
 			path = ViperDemo;
@@ -65,6 +97,136 @@
 				84DAA87328D304C1002D8149 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84DAA87A28D304CF002D8149 /* UIs */ = {
+			isa = PBXGroup;
+			children = (
+				84DAA88028D30547002D8149 /* Users */,
+				84DAA88128D30553002D8149 /* AddUser */,
+				84DAA8DE28D41340002D8149 /* AddImage */,
+			);
+			path = UIs;
+			sourceTree = "<group>";
+		};
+		84DAA87B28D304D5002D8149 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				84DAA88328D305A3002D8149 /* Data */,
+				84DAA88428D305A8002D8149 /* Repositories */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		84DAA87C28D304FE002D8149 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				84DAA86C28D304BF002D8149 /* ViperDemoApp.swift */,
+				84DAA89E28D31B02002D8149 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		84DAA87D28D30509002D8149 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				84DAA87028D304C1002D8149 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		84DAA87E28D30513002D8149 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		84DAA87F28D3051D002D8149 /* Representable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Representable;
+			sourceTree = "<group>";
+		};
+		84DAA88028D30547002D8149 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				84DAA89428D309BA002D8149 /* UsersInteractor.swift */,
+				84DAA89228D30895002D8149 /* UsersPresenter.swift */,
+				84DAA89028D30887002D8149 /* UsersPage.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		84DAA88128D30553002D8149 /* AddUser */ = {
+			isa = PBXGroup;
+			children = (
+				84DAA89C28D317DD002D8149 /* AddUserInteractor.swift */,
+				84DAA89A28D317CE002D8149 /* AddUserPresenter.swift */,
+				84DAA89828D30B98002D8149 /* AddUserPage.swift */,
+			);
+			path = AddUser;
+			sourceTree = "<group>";
+		};
+		84DAA88228D30585002D8149 /* Injection */ = {
+			isa = PBXGroup;
+			children = (
+				84DAA8A028D31C82002D8149 /* Injection.swift */,
+			);
+			path = Injection;
+			sourceTree = "<group>";
+		};
+		84DAA88328D305A3002D8149 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				84DAA88528D305B1002D8149 /* Entities */,
+				84DAA88728D305C2002D8149 /* Network */,
+				84DAA88628D305BB002D8149 /* Local */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		84DAA88428D305A8002D8149 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				84DAA88E28D3079D002D8149 /* UserRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		84DAA88528D305B1002D8149 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				84DAA88C28D3060E002D8149 /* User.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		84DAA88628D305BB002D8149 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				84DAA88828D305DB002D8149 /* UserLocal.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		84DAA88728D305C2002D8149 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				84DAA88A28D305E6002D8149 /* UserNetwork.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		84DAA8DE28D41340002D8149 /* AddImage */ = {
+			isa = PBXGroup;
+			children = (
+				84DAA8DF28D4136C002D8149 /* AddImageInteractor.swift */,
+				84DAA8E128D413B3002D8149 /* AddImagePresenter.swift */,
+				84DAA8E328D414A9002D8149 /* AddImagePage.swift */,
+			);
+			path = AddImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +299,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84DAA86F28D304BF002D8149 /* ContentView.swift in Sources */,
+				84DAA89B28D317CE002D8149 /* AddUserPresenter.swift in Sources */,
+				84DAA8A128D31C82002D8149 /* Injection.swift in Sources */,
+				84DAA88928D305DB002D8149 /* UserLocal.swift in Sources */,
+				84DAA89528D309BA002D8149 /* UsersInteractor.swift in Sources */,
+				84DAA89328D30895002D8149 /* UsersPresenter.swift in Sources */,
+				84DAA89128D30887002D8149 /* UsersPage.swift in Sources */,
+				84DAA8E428D414A9002D8149 /* AddImagePage.swift in Sources */,
+				84DAA88B28D305E6002D8149 /* UserNetwork.swift in Sources */,
+				84DAA89928D30B98002D8149 /* AddUserPage.swift in Sources */,
+				84DAA88F28D3079D002D8149 /* UserRepository.swift in Sources */,
+				84DAA89F28D31B02002D8149 /* AppDelegate.swift in Sources */,
+				84DAA89D28D317DD002D8149 /* AddUserInteractor.swift in Sources */,
+				84DAA8E228D413B3002D8149 /* AddImagePresenter.swift in Sources */,
+				84DAA8E028D4136C002D8149 /* AddImageInteractor.swift in Sources */,
+				84DAA88D28D3060E002D8149 /* User.swift in Sources */,
 				84DAA86D28D304BF002D8149 /* ViperDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
